@@ -7,13 +7,6 @@ var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync');
 var nodemon = require('gulp-nodemon');
 
-'use strict';
-
-var gulp = require('gulp');
-var browserSync = require('browser-sync');
-var nodemon = require('gulp-nodemon');
-
-
 gulp.task('default', ['browser-sync'], function () {
 });
 

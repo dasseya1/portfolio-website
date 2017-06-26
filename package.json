@@ -5,8 +5,7 @@
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch",
-    "build": "gulp",
-    "postinstall": "gulp"
+    "build": "gulp"
   },
   "keywords": [
     "portfolio",

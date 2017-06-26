@@ -4,7 +4,9 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "keywords": [
     "portfolio",
@@ -25,3 +27,6 @@
     "gulp-uglify": "^2.0.0"
   }
 }
+
+
+

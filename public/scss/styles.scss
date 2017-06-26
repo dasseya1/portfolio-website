@@ -368,13 +368,15 @@ footer {
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
+        font-family: 'Chela One' !important;
+        margin-bottom: 25px;
     }
 
     h2 {
         color: lighten($base-color, 25%);
         font-weight: 500;
         font-size: 2.25em;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
 }
 

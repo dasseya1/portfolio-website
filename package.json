@@ -2,10 +2,10 @@
   "name": "damien-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "js/scripts.js",
+  "main": "app.js",
   "scripts": {
-    "watch": "gulp watch",
-    "start": "gulp"
+     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
   },
   "keywords": [
     "portfolio",
@@ -26,14 +26,8 @@
     "gulp-uglify": "^2.0.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^2.0.0"
+    "browser-sync": "^2.18.12",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1"
   }
 }
-
-
-

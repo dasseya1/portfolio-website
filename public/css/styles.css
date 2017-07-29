@@ -222,7 +222,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../images/header.jpg');
     text-align: center;
     color: white;
 }
@@ -542,6 +542,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
     padding: 15px 30px;
+    border: 2px solid white;
 }
 ::-moz-selection {
     color: white;
@@ -563,4 +564,7 @@ img::-moz-selection {
 }
 body {
     webkit-tap-highlight-color: #222222;
+}
+#bs-example-navbar-collapse-1 {
+    background-color: black;
 }

@@ -1,345 +1,370 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Damien Asseya - Portfolio Website</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Chela+One|Devonshire:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-
-<body>
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
-        </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </header>
-    <!-- End header -->
-
-    <div id="lead">
-        <div id="lead-content">
-            <h1>Damien Asseya</h1>
-            <h2>Full Stack Web Developer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
-        </div>
-        <!-- End #lead-content -->
-
-        <div id="lead-overlay"></div>
-
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Meet Damien Asseya</title>
+      <!-- Bootstrap Core CSS -->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+      <!-- Plugin CSS -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
+      <!-- Theme CSS -->
+      <link href="css/styles.css" rel="stylesheet">
+      <link rel='icon' type='image/ico' href='favicon.ico' />
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body id="page-top">
+      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+               </button>
+               <a class="navbar-brand page-scroll" href="#page-top">Damien Asseya</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#experience">Experience</a>
+                  </li>
+                  <li>
+                     <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <header>
+         <div class="header-content">
+            <div class="header-content-inner">
+               <img id="picOfMe" src="img/picofme.jpg" alt="avatar_img">
+               <h1 id="homeHeading">Damien Asseya</h1>
+               <hr>
+               <p>Full Stack Web Developer</p>
+               <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More About Me!</a>
+            </div>
+         </div>
+      </header>
+      <section class="bg-primary" id="about">
+         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        I am a full-stack web developer applying my experiences with JavaScript, HTML, CSS, jQuery, and Node.js. I like to spend time on the front-end with interests in UX/UI design. Lately, I have been working with React and Redux. Not only do I enjoy developing on the front-end, I also have an understanding of the back-end having worked with Express, MongoDB, and MySQL. I expect to continue learning as new technologies develop and tackle any problems or tasks to continue being a well-rounded web developer .
-                    </p>
-                    <br />
-                    <p> 
-                        The idea that there are 'endless' possibilities with programming has kept me engrossed in this field and continues to appeal to me today. My growing passion for coding has opened my eyes to the booming tech world. Coding along with web development allows me to expand on my creativity and further challenges my problem solving skills. The love for coding comes with sleepless nights and frustration to understand the latest technologies, but I enjoy every second of it. My goal is to not only create practical applications, but also build applications that people can truly appreciate.
-                    </p>
-                </div>
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <h2 class="section-heading">ABOUT DAMIEN</h2>
+                  <hr class="light">
+                  <p class="text-faded"> I am a full-stack web developer applying my experiences with JavaScript, HTML, CSS, jQuery, and Node.js. I like to spend time on the front-end with interests in UX/UI design. 
+                     Lately, I have been working with React and Redux. Not only do I enjoy developing on the front-end, I also have an understanding of the back-end having worked with Express, MongoDB, and MySQL. I expect to continue learning as new technologies develop and tackle any problems or tasks to continue being a well-rounded web developer.
+                  </p>
+                  <p class="text-faded">Fun Fact: I am a huge coffee enthusiast and have an unwavering devotion to soccer.</p>
+                  <a href="#portfolio" class="page-scroll btn btn-default btn-xl sr-button">See My Recent Projects</a>
+               </div>
             </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-            <div data-date="December 2015 – Present">
-                <h3>Fort Belvoir Community Hospital (Alexandria, VA)</h3>
-                <h4>IT Programmer/Medical Data Analyst - Contractor</h4>
-                <p>
-                    <ul>
-                        <li>
-                            Create monthly reports for 9 Directorates based on surveys, complaints, and compliments received from Patients;
-                        </li>
-                        <li>
-                            Support the Office of the Chief Department of Patients Relations with the daily technical tasks for the Culture of Excellence (COE);
-                        </li>
-                        <li>
-                            Design and create surveys on Sharepoint upon request;
-                        </li>
-                        <li>
-                            Maintain Team’s Sharepoint site with CSS3, HTML, and JavaScript and update links to important documents and forms on the homepage;
-                        </li>
-                    </ul>
-                </p>
-            </div>
-
-            <div data-date="July 2013 – August 2015">
-                <h3>ExxonMobil (Fairfax, VA)</h3>
-                <h4>SAP Systems Analyst - Contractor</h4>
-                <p>
-                    <ul>
-                        <li>
-                            Scheduled and monitored the annual Inventory Verification at third party plants for lubricant business Line in United States;
-                        </li>
-                        <li>
-                            In charge of reconciling lubricant accounts payables for the entire US using SAP ECC 6.0;
-                        </li>
-                        <li>
-                            Identified and provided solutions for the resolution of SAP IDOC errors resulting from intercompany transactions;
-                        </li>
-                        <li>
-                            Participated in SAP testing for a new consignment process with a cross-functional team (EMIT, Payables, Operations, Procurement).
-                        </li>
-                    </ul>
-                </p>
-            </div>
-
-            <div data-date="July 2007 – June 2013">
-                <h3>Gate Gourmet</h3>
-                <h4>SAP Data Coordinator</h4>
-                <p>
-                    <ul>
-                        <li>
-                            Trained SAP Coordinators and any Managers seeking detailed training on SAP ;
-                        </li>
-                        <li>
-                            Led end of month inventory by creating physical inventory documents and reviewed the counts;
-                        </li>
-                        <li>
-                            Reviewed and submitted all Bill of Materials (BOM) change requests to ensure inventory and general ledger accuracy.
-                        </li>
-                        <li>
-                            Updated daily production through back flushing and post goods issue.    
-                        </li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>The George Washington University (Arlington, VA)</h3>
-            <span class="education-date">Jan 2017 - Jul 2017</span>
-            <h4>Full Stack Web Development Boot Camp</h4>
-            <p>
-                An intensive 24-week long boot camp dedicated to designing and building web applications.</span>
-                <br />
-                Skills Learned: JavaScript, jQuery, Node.js, Express, HTML5/CSS3, Bootstrap, Git, React.js, 
-Bootstrap, mongoDB, mysql, mongoose, sequelize
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Universite Laval (Quebec, Canada)</h3>
-            <span class="education-date">August 2004 - June 2006</span>
-            <h4>MBA Management</h4>
-            <!--<ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>-->
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>Ecole Nationale d'Administration (Cotonou, Benin)</h3>
-            <span class="education-date">September 2001 - June 2004</span>
-            <h4>Bachelor in Finance</h4>
-            <!--<ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>-->
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
+         </div>
+      </section>
+      <section id="portfolio">
+         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/sequelizedburgerpro.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Eat-Da-Burger!</h3>
-                        <p>
-                            Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-                            It was built using Node, Express, Sequelize, Materialize-css, MySQL.
-                        </p>
-                        <a href="https://sequelizedburgerpro.herokuapp.com/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/giftastic.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>GifTastic</h3>
-                        <p>
-                            A dynamic webpage that populates with gifs of your choice. It was built using the GIPHY API. 
-                        </p>
-                        <a href="https://dasseya1.github.io/GifTastic/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/preniumnews.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>The News App</h3>
-                        <p>
-                            A web app that lets users leave comments on the latest news imported via scraping. Cheerio, request, express, mongodb, mongoose, 
-                            and handlebars are the packages and tools used for the project.
-                        </p>
-                        <a href="https://preniumnews.herokuapp.com/">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+               <div class="col-lg-12 text-center">
+                  <h2>PORTFOLIO</h2>
+                  <hr>
+               </div>
             </div>
-        </div>
-    </div>
-    <!-- End #projects -->
-
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Node.js</li>
-            <li>ReactJS</li>
-            <li>Ruby on Rails</li>
-            <li>MongoDB</li>
-            <li>Java</li>
-            <li>Vue.js</li>
-            <li>MySQL</li>
-            <li>Sequelize</li>
-            <li>Mongoose</li>
-            <li>Bootstrap</li>
-            <li>Firebase</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/dasseya1@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
-    <footer>
-        <div class="container">
             <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2017 Damien Asseya
-                    </p>
-                </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/dasseya1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/3954542/damien-gold" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/asseya" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/damienasseya" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/damienasseya" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+               <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                     <div class="caption">
+                        <div class="caption-content">
+                           Eat-Da-Burger!
+                           <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                     </div>
+                     <img src="img/portfolio/" class="img-responsive" alt="">
+                  </a>
+               </div>
+               <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                     <div class="caption">
+                        <div class="caption-content">
+                           PhotographerShop
+                           <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                     </div>
+                     <img src="img/portfolio/" class="img-responsive" alt="">
+                  </a>
+               </div>
+               <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                     <div class="caption">
+                        <div class="caption-content">
+                           TheNewsApp
+                           <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                     </div>
+                     <img src="img/portfolio/" class="img-responsive" alt="">
+                  </a>
+               </div>
             </div>
-        </div>
-    </footer>
-    <!-- End footer -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-</body>
-
+         </div>
+      </section>
+      <!-- Portfolio Modals -->
+      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+               <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                     <div class="rl">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <h2>Eat-Da-Burger!</h2>
+                        <hr>
+                        <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                        <p>
+                           Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. It was built using Node, Express, Sequelize, Materialize-css, 
+                           <MySQL class=""></MySQL>
+                           <br>
+                        </p>
+                        <ul class="list-inline item-details">
+                           <li>URL:
+                              <strong><a target="_blank" href="https://preniumnews.herokuapp.com/">TheNewsApp</a>
+                              </strong>
+                           </li>
+                           <li>Repo:
+                              <strong><a target="_blank" href="https://sequelizedburgerpro.herokuapp.com/">Github</a>
+                              </strong>
+                           </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+               <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                     <div class="rl">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <h2>PhotographerShop</h2>
+                        <hr>
+                        <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/" class="img-responsive img-centered" alt="">
+                        <p>PhotographerShop is built to let a talented photographer showcase his/her photography projects and attract potential customers. 
+                           <br>
+                           My philosophy is simple: A picture is worth a thousand words!
+                        </p>
+                        <ul class="list-inline item-details">
+                           <li>URL:
+                              <strong><a target="_blank" href="https://dasseya1.github.io/Responsive-Portfolio-Site/">PhotographerShop</a>
+                              </strong>
+                           </li>
+                           <li>Repo:
+                              <strong><a target="_blank" href="https://github.com/dasseya1/Responsive-Portfolio-Site">Github</a>
+                              </strong>
+                           </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+               <div class="close-modal" data-dismiss="modal">
+                  <div class="lr">
+                     <div class="rl">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                     <div class="modal-body">
+                        <h2>TheNewsApp</h2>
+                        <hr>
+                        <img src="img/portfolio/Grid.png" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/Player.png" class="img-responsive img-centered" alt="">
+                        <p>A web app that lets users leave comments on the latest news imported via scraping. Cheerio, request, express, mongodb, mongoose, and handlebars are the packages and tools used for the project.
+                        </p>
+                        <ul class="list-inline item-details">
+                           <li>URL:
+                              <strong><a target="_blank" href="https://preniumnews.herokuapp.com/">TheNewsApp</a>
+                              </strong>
+                           </li>
+                           <li>Repo:
+                              <strong><a target="_blank" href="https://github.com/dasseya1/newsApp">Github</a>
+                              </strong>
+                           </li>
+                        </ul>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <aside class="bg-primary">
+      </aside>
+      <section id="experience">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">EXPERIENCE</h2>
+                  <hr class="primary">
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 resume-item">
+               <div class="container expereince-content">
+                  <ul>
+                     <h3>FBCH | IT Programmer/Medical Data Analyst - Contractor</h3>
+                     <li>Create monthly reports for 9 Directorates based on surveys, complaints, and compliments received from Patients</li>
+                     <li>Design and create surveys on Sharepoint upon request</li>
+                     <li>Maintain Team’s Sharepoint site with CSS3, HTML, and JavaScript and update links to important documents and forms on the homepage</li>
+                     <li>Support the Office of the Chief Department of Patients Relations with the daily technical tasks for the Culture of Excellence (COE)</li>
+                  </ul>
+                  <br>
+                  <ul>
+                     <h3>ExxonMobil | SAP Systems Analyst - Contractor</h3>
+                     <li>Scheduled and monitored the annual Inventory Verification at third party plants for lubricant business Line in United States</li>
+                     <li>In charge of reconciling lubricant accounts payables for the entire US using SAP ECC 6.0</li>
+                     <li>Participated in SAP testing for a new consignment process with a cross-functional team (EMIT, Payables, Operations, Procurement)</li>
+                  </ul>
+                  <br>
+                  <ul>
+                     <h3>Gate Gourmet Inc. | Sr. SAP Data Coordinator</h3>
+                     <li>Trained SAP Coordinators and any Managers seeking detailed training on SAP</li>
+                     <li>Led end of month inventory by creating physical inventory documents and reviewed the counts</li>
+                     <li>Reviewed and submitted all Bill of Materials (BOM) change requests to ensure inventory and general ledger accuracy</li>
+                  </ul>
+                  <br>
+               </div>
+               <br>
+               <a href="lib/Damienresume.pdf" class="resume-link btn btn-primary btn-xl">
+                  <div>
+                     <div>
+                        View Full Resume
+                        <i class="fa fa-search-plus fa-1x"></i>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </section>
+      <aside class="bg-primary">
+      </aside>
+      <section id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <h2 class="section-heading">Let's Get In Touch!</h2>
+                  <hr class="primary">
+                  <p>Let's sit and chat over coffee! Give me a call or send me an email and I will get back to you as soon as possible.</p>
+               </div>
+               <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <div id="contact-form">
+                     <form method="POST" action="https://formspree.io/dasseya1@gmail.com">
+                        <input type="hidden" name="_subject" value="Contact request from personal website" />
+                        <input type="email" name="_replyto" placeholder="Your email" required>
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                        <button type="submit">Send</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="text-center">
+         <div class="footer-above">
+            <div class="container">
+               <div class="row">
+                  <div class="footer-col col-md-12">
+                     <ul class="list-inline">
+                        <li>
+                           <a target="_blank" href="https://github.com/dasseya1" class="btn-social btn-outline">
+                           <span class="fa-stack fa-2x">
+                           <i class="fa fa-square-o fa-stack-2x"></i>
+                           <i class="fa fa-github fa-stack-1x"></i>
+                           </span>
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://www.linkedin.com/in/damienasseya/" class="btn-social btn-outline">
+                           <span class="fa-stack fa-2x">
+                           <i class="fa fa-square-o fa-stack-2x"></i>
+                           <i class="fa fa-linkedin fa-stack-1x"></i>
+                           </span>
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="https://angel.co/damien-asseya" class="btn-social btn-outline">
+                           <span class="fa-stack fa-2x">
+                           <i class="fa fa-square-o fa-stack-2x"></i>
+                           <i class="fa fa-angellist fa-stack-1x"></i>
+                           </span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+         <div class="footer-below">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-12">
+                     Copyright &copy; 2017 Damien Asseya
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- jQuery -->
+      <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+      <!-- Theme JavaScript -->
+      <script src="js/scripts.min.js"></script>
+   </body>
 </html>

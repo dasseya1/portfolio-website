@@ -1,17 +1,26 @@
+header,
+header .header-content {
+    position: relative;
+    text-align: center
+}
+
 #contact {
     padding: 50px 15px;
     background: #3498db;
     text-align: center;
-    color: #fff;
+    color: #fff
 }
+
 #contact h2 {
-    margin: 0 0 15px 0;
-    font-weight: 500;
+    margin: 0 0 15px;
+    font-weight: 500
 }
+
 #contact-form {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto
 }
+
 #contact-form input,
 #contact-form textarea {
     display: block;
@@ -23,35 +32,42 @@
     background: #1d6fa5;
     color: #fff;
     -webkit-transition: .5s ease all;
-    transition: .5s ease all;
+    transition: .5s ease all
 }
+
 #contact-form input::-webkit-input-placeholder,
 #contact-form textarea::-webkit-input-placeholder {
-    color: #fff;
+    color: #fff
 }
+
 #contact-form input:-moz-placeholder,
 #contact-form textarea:-moz-placeholder {
     color: #fff;
-    opacity: 1;
+    opacity: 1
 }
+
 #contact-form input::-moz-placeholder,
 #contact-form textarea::-moz-placeholder {
     color: #fff;
-    opacity: 1;
+    opacity: 1
 }
+
 #contact-form input:-ms-input-placeholder,
 #contact-form textarea:-ms-input-placeholder {
-    color: #fff;
+    color: #fff
 }
+
 #contact-form input:focus,
 #contact-form textarea:focus {
-    outline: none;
-    background: #16527a;
+    outline: 0;
+    background: #16527a
 }
+
 #contact-form textarea {
     height: 150px;
-    resize: none;
+    resize: none
 }
+
 #contact-form button {
     display: block;
     width: 100%;
@@ -61,160 +77,197 @@
     border: none;
     color: #3498db;
     font-weight: 700;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
     -webkit-transition: .5s ease all;
-    transition: .5s ease all;
+    transition: .5s ease all
 }
+
 #contact-form button:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23)
 }
-html,
-body {
+
+body,
+html {
     height: 100%;
-    width: 100%;
+    width: 100%
 }
+
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    webkit-tap-highlight-color: #222
 }
-hr {
-    border-color: #189FF2;
-    border-width: 3px;
-    max-width: 50px;
-}
-hr.light {
-    border-color: white;
-}
-a {
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
-    color: #189FF2;
-}
-a:hover,
-a:focus {
-    color: #0b82cc;
-}
+
+.btn,
+.navbar-default,
+.navbar-default .navbar-header .navbar-brand,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
+
+hr {
+    border-color: #189FF2;
+    border-width: 3px;
+    max-width: 50px
+}
+
+hr.light {
+    border-color: #fff
+}
+
+a {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    color: #189FF2
+}
+
+.btn-default,
+.navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s
+}
+
+a:focus,
+a:hover {
+    color: #0b82cc
+}
+
 p {
     font-size: 19px;
     line-height: 1.5;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
+
 .bg-primary {
-    background-color: #189FF2;
+    background-color: #189FF2
 }
+
 .text-faded {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, .7)
 }
+
 section {
-    padding: 100px 0;
+    padding: 100px 0
 }
+
 aside {
-    padding: 10px;
+    padding: 10px
 }
+
 .no-padding {
-    padding: 0;
+    padding: 0
 }
+
 #picOfMe {
     border-radius: 30%;
     border: 3px solid;
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: 15%
 }
+
 .navbar-default {
-    background-color: white;
-    border-color: rgba(34, 34, 34, 0.05);
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+    background-color: #fff;
+    border-color: rgba(34, 34, 34, .05);
+    transition: all .35s
 }
+
 .navbar-default .navbar-header .navbar-brand {
     color: #189FF2;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
-    color: #0b82cc;
+
+.navbar-default .navbar-header .navbar-brand:focus,
+.navbar-default .navbar-header .navbar-brand:hover {
+    color: #0b82cc
 }
+
 .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
     font-size: 12px;
-    color: #222222;
-    text-transform: uppercase;
+    color: #222;
+    text-transform: uppercase
 }
-.navbar-default .nav > li > a,
-.navbar-default .nav > li > a:focus {
+
+.navbar-default .nav>li>a,
+.navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    color: #222222;
+    color: #222
 }
-.navbar-default .nav > li > a:hover,
-.navbar-default .nav > li > a:focus:hover {
-    color: #189FF2;
+
+.navbar-default .nav>li>a:focus:hover,
+.navbar-default .nav>li>a:hover {
+    color: #189FF2
 }
-.navbar-default .nav > li.active > a,
-.navbar-default .nav > li.active > a:focus {
-    color: #189FF2 !important;
-    background-color: transparent;
+
+.navbar-default .nav>li.active>a,
+.navbar-default .nav>li.active>a:focus {
+    color: #189FF2!important;
+    background-color: transparent
 }
-.navbar-default .nav > li.active > a:hover,
-.navbar-default .nav > li.active > a:focus:hover {
-    background-color: transparent;
+
+.navbar-default .nav>li.active>a:focus:hover,
+.navbar-default .nav>li.active>a:hover {
+    background-color: transparent
 }
-@media (min-width: 768px) {
+
+@media (min-width:768px) {
     .navbar-default {
         background-color: transparent;
-        border-color: rgba(255, 255, 255, 0.3);
+        border-color: rgba(255, 255, 255, .3)
     }
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, .7)
     }
-    .navbar-default .navbar-header .navbar-brand:hover,
-    .navbar-default .navbar-header .navbar-brand:focus {
-        color: white;
+    .navbar-default .navbar-header .navbar-brand:focus,
+    .navbar-default .navbar-header .navbar-brand:hover {
+        color: #fff
     }
-    .navbar-default .nav > li > a,
-    .navbar-default .nav > li > a:focus {
-        color: rgba(255, 255, 255, 0.7);
+    .navbar-default .nav>li>a,
+    .navbar-default .nav>li>a:focus {
+        color: rgba(255, 255, 255, .7)
     }
-    .navbar-default .nav > li > a:hover,
-    .navbar-default .nav > li > a:focus:hover {
-        color: white;
+    .navbar-default .nav>li>a:focus:hover,
+    .navbar-default .nav>li>a:hover {
+        color: #fff
     }
     .navbar-default.affix {
-        background-color: white;
-        border-color: rgba(34, 34, 34, 0.05);
+        background-color: #fff;
+        border-color: rgba(34, 34, 34, .05)
     }
     .navbar-default.affix .navbar-header .navbar-brand {
         color: #189FF2;
-        font-size: 14px;
+        font-size: 14px
     }
-    .navbar-default.affix .navbar-header .navbar-brand:hover,
-    .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #0b82cc;
+    .navbar-default.affix .navbar-header .navbar-brand:focus,
+    .navbar-default.affix .navbar-header .navbar-brand:hover {
+        color: #0b82cc
     }
-    .navbar-default.affix .nav > li > a,
-    .navbar-default.affix .nav > li > a:focus {
-        color: #222222;
+    .navbar-default.affix .nav>li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #222
     }
-    .navbar-default.affix .nav > li > a:hover,
-    .navbar-default.affix .nav > li > a:focus:hover {
-        color: #189FF2;
+    .navbar-default.affix .nav>li>a:focus:hover,
+    .navbar-default.affix .nav>li>a:hover {
+        color: #189FF2
     }
 }
+
+#experience .expereince-content,
+#portfolio .portfolio-item .portfolio-link {
+    border-color: #189FF2;
+    border-style: solid;
+    border-width: 2px
+}
+
 header {
-    position: relative;
     width: 100%;
     min-height: auto;
     -webkit-background-size: cover;
@@ -222,35 +275,37 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../images/header.jpg');
-    text-align: center;
-    color: white;
+    background-image: url(../images/header.jpg);
+    color: #fff
 }
+
 header .header-content {
-    position: relative;
-    text-align: center;
-    padding: 100px 15px 100px;
-    width: 100%;
+    padding: 100px 15px;
+    width: 100%
 }
+
 header .header-content .header-content-inner h1 {
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 0;
-    font-size: 50px;
+    font-size: 50px
 }
+
 header .header-content .header-content-inner hr {
-    margin: 30px auto;
+    margin: 30px auto
 }
+
 header .header-content .header-content-inner p {
     font-weight: 400;
-    color: white;
+    color: #fff;
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 100px
 }
-@media (min-width: 768px) {
+
+@media (min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 100%
     }
     header .header-content {
         position: absolute;
@@ -258,111 +313,118 @@ header .header-content .header-content-inner p {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
-        padding: 0 50px;
+        padding: 0 50px
     }
     header .header-content .header-content-inner {
         max-width: 1000px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto
     }
     header .header-content .header-content-inner h1 {
-        font-size: 60px;
+        font-size: 60px
     }
     header .header-content .header-content-inner p {
         font-size: 30px;
         max-width: 70%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto
     }
 }
+
 .section-heading {
-    margin-top: 0;
+    margin-top: 0
 }
+
 .service-box {
     max-width: 400px;
-    margin: 50px auto 0;
+    margin: 50px auto 0
 }
-@media (min-width: 992px) {
+
+@media (min-width:992px) {
     .service-box {
-        margin: 20px auto 0;
+        margin: 20px auto 0
     }
 }
+
 .service-box p {
-    margin-bottom: 0;
+    margin-bottom: 0
 }
+
 #portfolio {
-    background: white;
+    background: #fff
 }
+
 #portfolio .portfolio-item {
     margin: 0 0 15px;
-    right: 0;
+    right: 0
 }
+
 #portfolio .portfolio-item .portfolio-link {
-    border-color: #189FF2;
-    border-style: solid;
-    border-width: 2px;
     display: block;
     margin: 0 auto;
     max-width: 600px;
-    position: relative;
+    position: relative
 }
+
 #portfolio .portfolio-item .portfolio-link .caption {
-    -moz-transition: all ease 0.5s;
-    -webkit-transition: all ease 0.5s;
-    background: rgba(24, 159, 242, 0.725);
+    -moz-transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    background: rgba(24, 159, 242, .725);
     height: 100%;
     opacity: 0;
     position: absolute;
-    transition: all ease 0.5s;
-    width: 100%;
+    transition: all ease .5s;
+    width: 100%
 }
+
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 1
 }
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
-    color: white;
+    color: #fff;
     font-size: 20px;
     height: 20px;
     margin-top: -12px;
     position: absolute;
     text-align: center;
     top: 50%;
-    width: 100%;
+    width: 100%
 }
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-    margin-top: -12px;
+    margin-top: -12px
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
-    margin: 0;
-}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    margin: 0;
+    margin: 0
 }
+
 #portfolio * {
-    z-index: 2;
+    z-index: 2
 }
+
 section.resume {
-    background: rgba(0, 0, 0, 0.5);
-    background: white;
+    background: #fff
 }
+
 #experience .resume-link {
     display: block;
     margin: 0 auto;
     max-width: 200px;
-    position: relative;
+    position: relative
 }
-#experience .expereince-content {
-    border-color: #189FF2;
-    border-style: solid;
-    border-width: 2px;
-}
+
 #experience .expereince-content ul {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto
 }
+
 #experience .expereince-content ul li {
-    font-size: 16px;
+    font-size: 16px
 }
+
 .portfolio-modal .modal-content {
     -webkit-box-shadow: none;
     background-clip: border-box;
@@ -371,18 +433,22 @@ section.resume {
     box-shadow: none;
     min-height: 100%;
     padding: 50px 0;
-    text-align: center;
+    text-align: center
 }
+
 .portfolio-modal .modal-content h2 {
     font-size: 3em;
-    margin: 0;
+    margin: 0
 }
+
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
+
 .portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
+    margin: 30px 0
 }
+
 .portfolio-modal .close-modal {
     background-color: transparent;
     cursor: pointer;
@@ -391,11 +457,13 @@ section.resume {
     right: 25px;
     top: 15px;
     width: 50px;
-    z-index: 1070;
+    z-index: 1070
 }
+
 .portfolio-modal .close-modal:hover {
-    opacity: 0.3;
+    opacity: .3
 }
+
 .portfolio-modal .close-modal .lr {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -404,8 +472,9 @@ section.resume {
     margin-left: 35px;
     transform: rotate(45deg);
     width: 3px;
-    z-index: 1051;
+    z-index: 1051
 }
+
 .portfolio-modal .close-modal .lr .rl {
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -413,158 +482,177 @@ section.resume {
     height: 50px;
     transform: rotate(90deg);
     width: 3px;
-    z-index: 1052;
+    z-index: 1052
 }
+
 .portfolio-modal .modal-backdrop {
     display: none;
-    opacity: 0;
+    opacity: 0
 }
+
 .portfolio-modal .tech-logo {
-    height: 38px;
+    height: 38px
 }
+
 footer .footer-col {
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
+
 footer .footer-below {
     padding: 25px 0;
-    background: rgba(24, 159, 242, 0.4);
-    font-size: 16px;
+    background: rgba(24, 159, 242, .4);
+    font-size: 16px
 }
+
+.btn-default.active,
+.btn-default:active,
+.btn-primary.active,
+.btn-primary:active,
+.open>.dropdown-toggle.btn-default,
+.open>.dropdown-toggle.btn-primary {
+    background-image: none
+}
+
 .text-primary {
-    color: #189FF2;
+    color: #189FF2
 }
-.no-gutter > [class*='col-'] {
+
+.no-gutter>[class*=col-] {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 0
 }
+
 .btn-default {
-    color: #222222;
-    background-color: white;
-    border-color: white;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+    color: #222;
+    background-color: #fff;
+    border-color: #fff;
+    transition: all .35s
 }
-.btn-default:hover,
-.btn-default:focus,
+
+.btn-default.active,
 .btn-default.focus,
 .btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    color: #222222;
+.btn-default:focus,
+.btn-default:hover,
+.open>.dropdown-toggle.btn-default {
+    color: #222;
     background-color: #f2f2f2;
-    border-color: #ededed;
+    border-color: #ededed
 }
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    background-image: none;
-}
+
 .btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default,
-.btn-default.disabled:hover,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
+.btn-default.disabled.focus,
+.btn-default.disabled:active,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled],
 .btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
-    background-color: white;
-    border-color: white;
+.btn-default[disabled].focus,
+.btn-default[disabled]:active,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default,
+fieldset[disabled] .btn-default.active,
+fieldset[disabled] .btn-default.focus,
+fieldset[disabled] .btn-default:active,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default:hover {
+    background-color: #fff;
+    border-color: #fff
 }
+
 .btn-default .badge {
-    color: white;
-    background-color: #222222;
+    color: #fff;
+    background-color: #222
 }
+
 .btn-primary {
-    color: white;
+    color: #fff;
     background-color: #189FF2;
     border-color: #189FF2;
-    -webkit-transition: all 0.35s;
-    -moz-transition: all 0.35s;
-    transition: all 0.35s;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s
 }
-.btn-primary:hover,
-.btn-primary:focus,
+
+.btn-primary.active,
 .btn-primary.focus,
 .btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    color: white;
+.btn-primary:focus,
+.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
     background-color: #0d92e4;
-    border-color: #0c8cda;
+    border-color: #0c8cda
 }
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    background-image: none;
-}
+
 .btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
 .btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
     background-color: #189FF2;
-    border-color: #189FF2;
+    border-color: #189FF2
 }
+
 .btn-primary .badge {
     color: #189FF2;
-    background-color: white;
+    background-color: #fff
 }
+
 .btn {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     border: none;
     border-radius: 300px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
+
 .btn-xl {
     padding: 15px 30px;
-    border: 2px solid white;
+    border: 2px solid white
 }
+
 ::-moz-selection {
-    color: white;
+    color: #fff;
     text-shadow: none;
-    background: #222222;
+    background: #222
 }
+
 ::selection {
-    color: white;
+    color: #fff;
     text-shadow: none;
-    background: #222222;
+    background: #222
 }
+
 img::selection {
-    color: white;
-    background: transparent;
+    color: #fff;
+    background: 0 0
 }
+
 img::-moz-selection {
-    color: white;
-    background: transparent;
+    color: #fff;
+    background: 0 0
 }
-body {
-    webkit-tap-highlight-color: #222222;
+
+#mainNav {
+    background-color: #000;
+    margin-bottom: 10%
 }
-#bs-example-navbar-collapse-1 {
-    background-color: black;
+
+.findout {
+    margin-bottom: 30px !important
 }
